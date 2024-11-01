@@ -38,4 +38,11 @@ INSTALANDO TOOLS DO APACHE AVRO
 
         dotnet add Consumidor package Confluent.SchemaRegistry.Serdes.Avro
 
+#
+CRIANDO UM SCHEMA
+
+        cd Produtor
+
+        avrogen -s ..\Avros\Curso.avsc .
+
 

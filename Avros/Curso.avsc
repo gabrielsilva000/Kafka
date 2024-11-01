@@ -1,0 +1,9 @@
+{
+    "namespace" : "kafka.io",
+    "type" : "record",
+    "name" : "project",
+    "fields" : [
+        {"name" : "id", "type", "string"},
+        {"name" : "descricao", "type", "string"}
+    ]
+}
