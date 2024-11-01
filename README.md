@@ -29,3 +29,13 @@ EXECUTANDO PROJETO
 
         cd ./Produtor/
         dotnet run
+#
+INSTALANDO TOOLS DO APACHE AVRO
+
+        dotnet tool install --global Apache.Avro.Tools
+
+        dotnet add Produtor package Confluent.SchemaRegistry.Serdes.Avro
+
+        dotnet add Consumidor package Confluent.SchemaRegistry.Serdes.Avro
+
+
