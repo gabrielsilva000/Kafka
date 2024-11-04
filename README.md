@@ -46,3 +46,13 @@ CRIANDO UM SCHEMA
         avrogen -s ..\Avros\Curso.avsc .
 
 
+#
+IMPLEMENTANDO SCHEMA REGISTRY
+
+        cd .\Consumidor\
+        dotnet run
+
+        cd .\Produtor\
+        dotnet run
+
+
